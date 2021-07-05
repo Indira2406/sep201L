@@ -19,7 +19,9 @@ body {
 
 .page {
     &-main {
-        background: linear-gradient(90deg, rgba(238, 85, 20, 0.1) 1.14%, rgba(238, 85, 20, 0) 133.88%);
+       background-image: url('../img/bg.png');
+       background-repeat: no-repeat;
+        background-size: contain;
     }
 }
 .menu {
