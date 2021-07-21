@@ -540,6 +540,43 @@ body {
 
 }
 
+.page-footer {
+    background-color: rgba(238, 85, 20, 0.04);
+}
+
+.footer {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 0.7fr 0.7fr 1fr;
+    a, p {
+        font-size: 18px;
+        line-height: 160%;
+        font-family: 'Poppins', sans-serif;
+        color: rgba(26, 10, 3, 0.7);
+        text-decoration: none;
+        display: block;
+        margin: 0;
+    }
+    &-item {
+        &__title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            line-height: 160%;
+        }
+    }
+    &-icons {
+        display: flex;
+        &__item {
+            padding: 10px;
+            &:first-child {
+                padding-left: 0;
+            }
+        }
+
+
+    }
+}
+
 
 
 
